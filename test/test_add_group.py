@@ -12,15 +12,11 @@ def app(request):
 
 
 def test_add_group(app): #тестовый метод, принимающий параметр- фикстуру
-    app.login(username="admin", password="secret")
-    app.open_group_page()
+    app.session.login(username="admin", password="secret")
     app.create_new_group(Group(name="hhhh", header="rrrrr", footer="tttt"))
-    app.return_to_group_page()
-    app.logout()
+    app.session.logout()
 
 def test_add_empty_group(app):
-    app.login(username="admin", password="secret")
-    app.open_group_page()
+    app.session.login(username="admin", password="secret")
     app.create_new_group(Group( name="hhhh", header="rrrrr", footer="tttt"))
-    app.return_to_group_page()
-    app.logout()
+    app.session.logout()

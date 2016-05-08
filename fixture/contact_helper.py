@@ -9,7 +9,7 @@ class ContactHelper:
         wd.find_element_by_link_text("add new").click()
         self.fillin_contact_form(contact_model)
 
-    def fillin_contact_form(self, contact_model):
+    def fillin_contact_form(self, contact_model): #contact_model это конструктор, там перечисляем все поля для заполнения
         wd = self.app.wd
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").send_keys(contact_model.firstname)

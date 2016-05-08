@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c8937e-947a-480d-8c49-2729cfb127e2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conftest.py" afterPath="$PROJECT_DIR$/conftest.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_con.py" afterPath="" />
     </list>
     <ignored path="new_troika.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +79,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-              <folding />
+              <folding>
+                <marker date="1462735230140" expanded="true" signature="878:958" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -715,7 +717,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding />
+          <folding>
+            <marker date="1462735230140" expanded="true" signature="878:958" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -788,9 +792,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#82#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +860,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1462735230140" expanded="true" signature="878:958" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

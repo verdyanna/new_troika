@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c8937e-947a-480d-8c49-2729cfb127e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conftest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/contact_helper.py" afterPath="$PROJECT_DIR$/fixture/contact_helper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/group_helper.py" afterPath="$PROJECT_DIR$/fixture/group_helper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_add_group.py" afterPath="$PROJECT_DIR$/test/test_add_group.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conftest.py" afterPath="$PROJECT_DIR$/conftest.py" />
     </list>
     <ignored path="new_troika.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +19,7 @@
     <SUITE FILE_PATH="coverage/new_troika$py_test_in_test_del_group_py.coverage" NAME="py.test in test_del_group.py Coverage Results" MODIFIED="1462735402802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/new_troika$py_test_in_test_con_py.coverage" NAME="py.test in test_con.py Coverage Results" MODIFIED="1462720164383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/new_troika$py_test_in_test_add_contact_py.coverage" NAME="py.test in test_add_contact.py Coverage Results" MODIFIED="1462726918693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/new_troika$py_test_in_test.coverage" NAME="py.test in test Coverage Results" MODIFIED="1462735425789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/new_troika$py_test_in_test.coverage" NAME="py.test in test Coverage Results" MODIFIED="1462736728934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/new_troika$py_test_in_test_add_group_py__1_.coverage" NAME="py.test in test_add_group.py (1) Coverage Results" MODIFIED="1462735230232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/new_troika$py_test_in_test_add_group_py.coverage" NAME="py.test in test_add_group.py Coverage Results" MODIFIED="1462702504843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
@@ -66,7 +62,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="group_helper.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="group_helper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/group_helper.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -105,6 +113,7 @@
         <option value="$PROJECT_DIR$/test/conftest_all_test.py" />
         <option value="$PROJECT_DIR$/test/conftest.py" />
         <option value="$PROJECT_DIR$/fixture/group_helper.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
       </list>
     </option>
   </component>
@@ -115,8 +124,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="299" />
-    <option name="y" value="8" />
+    <option name="x" value="294" />
+    <option name="y" value="45" />
     <option name="width" value="1066" />
     <option name="height" value="744" />
   </component>
@@ -596,8 +605,8 @@
     <history-entry file="py_test_in_test - 2016.05.08 at 22h 24m 56s.xml">
       <configuration name="py.test in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_contact_py - 2016.05.08 at 19h 35m 18s.xml">
-      <configuration name="py.test in test_add_contact.py" configurationId="tests" />
+    <history-entry file="py_test_in_test - 2016.05.08 at 22h 46m 35s.xml">
+      <configuration name="py.test in test" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_add_contact_py - 2016.05.08 at 20h 02m 11s.xml">
       <configuration name="py.test in test_add_contact.py" configurationId="tests" />
@@ -625,7 +634,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="299" y="8" width="1066" height="744" extended-state="0" />
+    <frame x="294" y="45" width="1066" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21471173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -811,16 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -860,6 +859,16 @@
         <state relative-caret-position="255">
           <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

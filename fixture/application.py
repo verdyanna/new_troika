@@ -1,7 +1,7 @@
 from selenium.webdriver.firefox.webdriver import WebDriver
 from fixture.session import SessionHelper
 from fixture.group_helper import GroupHelper
-from fixture.contact_helper import ContactHelper
+from fixture.object_helper import ContactHelper
 
 class Application:
     def __init__(self):
@@ -13,7 +13,7 @@ class Application:
 
     def open_home_page(self):
         wd = self.wd
-        wd.get("http://localhost/addressbook/")
+        wd.get("http://region.rsoo.ru/")
 
     def destroy(self):
         self.wd.quit()

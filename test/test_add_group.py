@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-from model.group import Group
+from model.platform_model import Platform
 
-def test_add_group(app): #тестовый метод, принимающий параметр- фикстуру
+def test_add_group(app):
     app.session.login(username="admin", password="secret")
-    app.group_helper.create_new_group(Group(name="hhhh", header="rrrrr", footer="tttt"))
+    app.group_helper.create_new_group(Platform(name="hhhh", header="rrrrr", footer="tttt"))
     app.session.logout()
 
 def test_add_empty_group(app):
     app.session.login(username="admin", password="secret")
-    app.group_helper.create_new_group(Group( name="hhhh", header="rrrrr", footer="tttt"))
+    app.group_helper.create_new_group(Platform(name="hhhh", header="rrrrr", footer="tttt"))
     app.session.logout()

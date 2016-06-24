@@ -1,4 +1,5 @@
-class ContactHelper:
+
+class PlatformHelper:
 
     def __init__(self, app):
         self.app = app
@@ -9,7 +10,7 @@ class ContactHelper:
         wd.find_element_by_link_text("add new").click()
         self.fillin_contact_form(contact_model)
 
-    def fillin_contact_form(self, contact_model): #contact_model это конструктор, там перечисляем все поля для заполнения
+    def fillin_contact_form(self, contact_model): #contact_model это конструктор, там перечисляем все поля для заполнения площадки
         wd = self.app.wd
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").send_keys(contact_model.firstname)
@@ -33,5 +34,19 @@ class ContactHelper:
     def return_to_home_page(self):
         wd = self.app.wd
         wd.find_element_by_link_text("home").click()
+
+    def fill_platform_form(self, platform_model):
+        wd = self.app.wd
+        wd.find_element_by_link_text("Начать работу").click()
+        wd.find_element_by_id("add-object").click()
+        wd.find_element_by_id("id_address").click()
+        wd.find_element_by_id("id_address").clear()
+        wd.find_element_by_id("id_address").send_keys(platform_model.id_address)
+        wd.find_element_by_css_selector("span.suggestions-value").click()
+        wd.find_element_by_id("id_mkd").click()
+        wd.find_element_by_id("ui-id-8").click()
+        wd.find_element_by_id("id_qty_container").click()
+        wd.find_element_by_id("id_qty_container").clear()
+        wd.find_element_by_id("id_qty_container").send_keys(platfrom_model.qty_container)
 
 
